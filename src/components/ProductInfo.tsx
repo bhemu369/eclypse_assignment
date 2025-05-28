@@ -52,7 +52,7 @@ const ProductInfo: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Expandable Sections */}
         <div className="space-y-0">
-          {sections.map((section, index) => (
+          {sections.map((section) => (
             <div key={section.title} className="border-b border-gray-800">
               <button
                 onClick={() => toggleSection(section.title)}
